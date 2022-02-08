@@ -1,0 +1,46 @@
+body {
+  --Green: #009cab;
+  --Yellow: #fabe00;
+  --LightGreen: #39d4e2;
+  --DarkYellow: #d69200;
+  --Black: #000;
+  --White: #fff;
+  --Gray: #525252;
+}
+
+.btn {
+  display: block;
+  color: var(--White);
+  border-radius: 20px;
+  border: 1px solid var(--White);
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+.btn:hover {
+  color: var(--Green);
+  border: 1px solid var(--White);
+  background: var(--White);
+  transition: 0.3s;
+}
+.btn02 {
+  display: block;
+  color: var(--Green);
+  border-radius: 20px;
+  border: 1px solid var(--Green);
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+.btn02:hover {
+  color: var(--White);
+  background: var(--Green);
+  border: 1px solid var(--Green);
+  transition: 0.3s;
+}
